@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scaling First Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="sidebar-heading">
+      <p class="heading">The<br />Company</p>
+      <li class="list">Home</li>
+      <li class="list">Showcase</li>
+      <li class="list">Services</li>
+      <li class="list">Designers</li>
+      <li class="list">Packages</li>
+      <li class="list">Contact</li>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="main-heading">
+      <h1>Interior Design</h1>
+      <h3>Showcase.</h3>
+      <div class="bottom-bar"></div>
+    </div>
+
+    <div class="picture">
+      <div class="picture-row">
+        <img src="images/showcase-01.jpg" alt="Interior Desisgn 1" />
+      </div>
+      <div class="picture-row">
+        <img src="images/showcase-02.jpg" alt="Interior Desisgn 2" />
+      </div>
+    </div>
+    <div class="picture">
+      <div class="picture-row">
+        <img src="images/showcase-03.jpg" alt="Interior Desisgn 3" />
+      </div>
+      <div class="picture-row">
+        <img src="images/showcase-04.jpg" alt="Interior Desisgn 4" />
+      </div>
+    </div>
+    <div class="picture">
+      <div class="picture-row">
+        <img src="images/showcase-05.jpg" alt="Interior Desisgn 5" />
+      </div>
+      <div class="picture-row">
+        <img src="images/showcase-06.jpg" alt="Interior Desisgn 6" />
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="services-heading">
+        <h3>Services.</h3>
+        <div class="bottom-bar"></div>
+      </div>
+      <div class="services-text">
+        <p>
+          We are a interior design service that focus on what's best for your
+          home and what's best for you!
+        </p>
+        <p>
+          Some text about our services - what we do and what we offer. We are
+          lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+    <div class="designers">
+      <div class="designers-heading">
+        <h3>Designers.</h3>
+        <div class="bottom-bar"></div>
+      </div>
+      <div class="designers-text">
+        <p>The best team in the world.</p>
+        <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p style="font-weight: bold;">Our designers are thoughtfully chosen:</p>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="images/person-01.jpg" alt="Happy Dude">
+          <div>
+            <h2>John Doe</h2>
+          </div>
+          <div>
+            <h3>CEO & Founder</h3>
+          </div>
+          <div class="para">
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/person-02.jpg" alt="Hat Girl">
+          <div>
+            <h2>Jane Doe</h2>
+          </div>
+          <div>
+            <h3>Designer</h3>
+          </div>
+          <div class="para">
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/person-03.jpg" alt="Old Dude">
+          <div>
+            <h2>Mike Ross</h2>
+          </div>
+          <div>
+            <h3>Architect</h3>
+          </div>
+          <div class="para">
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="packages">
+        <div class="packages-heading">
+          <h3>Packages.</h3>
+          <div class="bottom-bar"></div>
+        </div>
+        <div class="para">
+          <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure </p>
+        </div>
+
+        <div class="packages-container">
+          <div class="package-card basic">
+            <h2>Basic</h2>
+            <ul>
+              <li>Floorplanning</li>
+              <li>10 hours support</li>
+              <li>Photography</li>
+              <li>20% furniture discount</li>
+              <li>Good deals</li>
+              <li>
+                <div class="room-price">
+                  <div class='btn' onclick="minusRoomBasic(-1)">- $ </div><span id="priceBasic"> 199</span>
+                  <div class='btn' onclick="addRoomBasic(1)"> +</div>
+                  <div class="room-number"><span id="roomNumberBasic">1</span> room</div>
+                </div>
+              </li>
+              <li>
+                <button class="signup-btn" onclick="signUpBasic()">Sign Up</button>
+              </li>
+              <div class="thank-you" id="thankYouNoteBasic">Thank you for choosing <span
+                  id="thankYouRoomNumberBasic">1</span>
+                room
+              </div>
+            </ul>
+          </div>
+
+          <div class="package-card pro">
+            <h2>Pro</h2>
+            <ul>
+              <li>Floorplanning</li>
+              <li>10 hours support</li>
+              <li>Photography</li>
+              <li>20% furniture discount</li>
+              <li>Good deals</li>
+              <li>
+                <div class="room-price">
+                  <div class='btn' onclick="minusRoomPro(-1)">- $ </div><span id="pricePro"> 199</span>
+                  <div class='btn' onclick="addRoomPro(1)"> +</div>
+                  <div class="room-number"><span id="roomNumberPro">1</span> room</div>
+                </div>
+              </li>
+              <li>
+                <button class="signup-btn-pro" onclick="signUpPro()">Sign Up</button>
+              </li>
+              <div class="thank-you" id="thankYouNotePro">Thank you for choosing <span
+                  id="thankYouRoomNumberPro">1</span>
+                room
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="contact-heading">
+          <h3>Contact.</h3>
+          <div class="bottom-bar"></div>
+        </div>
+        <div class="para">
+          <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting
+            with new people!</p>
+        </div>
+        <form action="" class="form-container">
+          <div class="form">Name</div>
+          <input class="inputt" type="text" required>
+          <div class="form">Email</div>
+          <input class="inputt" type="text" required>
+          <div class="form">Message</div>
+          <input class="inputt" type="text" required>
+          <button class="form-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

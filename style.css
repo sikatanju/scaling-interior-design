@@ -1,0 +1,309 @@
+:root {
+    --sidebar-color: rgb(218, 91, 69);
+    --body-background: rgb(232, 222, 209);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--body-background);
+}
+
+.sidebar {
+    display: flex;
+    width: 380px;
+    height: 600px;
+    background-color: var(--sidebar-color);
+}
+
+.sidebar-heading {
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: white;
+}
+
+.sidebar-heading p {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.sidebar .list {
+    margin-bottom: 10px;
+}
+
+.list {
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 35px;
+}
+
+/* This class is to style the main content apart from the sidebar.*/
+.main {
+    display: block;
+    margin-left: 420px;
+    margin-top: -600px;
+    margin-right: 40px;
+}
+
+/* This class is to add styling to the "Interior Design"*/
+.main .main-heading h1 {
+    font-size: 64px;
+}
+
+/* This class is to add styling to the "Showcase"*/
+.main .main-heading h3 {
+    font-size: 48px;
+    color: var(--sidebar-color);
+    margin-bottom: 15px;
+}
+
+/* This class is to add the little bar under showcase, services, etc.*/
+.bottom-bar {
+    height: 8px;
+    width: 56px;
+    background-color: var(--sidebar-color);
+    border-radius: 3px; /* Rounding up the corner*/
+    margin-bottom: 25px;
+}
+
+.picture {
+    display: flex;
+    margin-top: 20px;
+}
+
+.picture .picture-row {
+    flex: 50%;
+    padding: 5px;
+}
+
+.picture .picture-row img {
+    width: 100%;
+}
+
+.services .services-heading h3 {
+    font-size: 48px;
+    color: var(--sidebar-color);
+    margin-bottom: 15px;
+}
+
+.services .services-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.designers .designers-heading h3 {
+    font-size: 48px;
+    color: var(--sidebar-color);
+    margin-bottom: 15px;
+}
+
+.designers .designers-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 120px;
+}
+
+.card {
+    overflow: hidden;
+    background-color: rgb(215, 197, 197);
+}
+
+.card-container .card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-container .card h2 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.card-container .card h3 {
+    color: rgb(130, 128, 126);
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.card-container .card .para {
+    margin-left: 20px;
+    font-size: 21px;
+}
+
+.main .packages .packages-heading h3 {
+    font-size: 48px;
+    color: var(--sidebar-color);
+    margin-bottom: 15px;
+}
+
+.packages .para p {
+    font-size: 23px;
+    margin-bottom: 0px;
+}
+
+.packages-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 0px;
+}
+
+.package-card {
+    background-color: var(--body-background);
+    border-radius: 2px;
+    text-align: center;
+    overflow: hidden;
+    width: 50%;
+}
+
+.package-card.basic h2 {
+    color: #fff;
+    background-color: rgb(71, 75, 74);
+    font-weight: 500;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.package-card ul {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 0;
+    width: 100%;
+    background-color: rgb(177, 174, 177);
+}
+
+.package-card ul li {
+    border-color: #8c8989;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.package-card .room-price .btn {
+    display: inline;
+    font-size: 32px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.package-card .room-price .room-number {
+    margin-top: 10px;
+}
+
+#priceBasic {
+    font-size: 36px;
+}
+
+#pricePro {
+    font-size: 36px;
+}
+
+.signup-btn {
+    padding: 12px 24px;
+    color: #000;
+    background-color: #fff;
+    border-style: none;
+}
+
+.signup-btn:hover {
+    cursor: pointer;
+}
+
+.signup-btn-pro {
+    padding: 12px 24px;
+    color: #fff;
+    background-color: var(--sidebar-color);
+    border-style: none;
+}
+
+.signup-btn-pro:hover {
+    cursor: pointer;
+}
+
+.thank-you {
+    display: none;
+    border-color: #8c8989;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px 0px;
+    padding: 20px 0px;
+}
+
+.package-card.pro h2 {
+    color: #fff;
+    background-color: var(--sidebar-color);
+    font-weight: 500;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.contact {
+    margin-top: 110px;
+}
+
+.contact-heading h3 {
+    font-size: 48px;
+    color: var(--sidebar-color);
+    margin-bottom: 15px;
+}
+
+.contact .para p {
+    font-size: 20px;
+}
+
+.form-container {
+    margin-bottom: 200px;
+}
+
+.contact .form {
+    width: 100%;
+    font-size: 26px;
+}
+
+.contact .inputt {
+    margin: 0px 22px 22px 0px;
+    background-color: var(--body-background);
+    width: 100%;
+    height: 2.5rem;
+}
+
+.contact .form-btn {
+    background-color: var(--sidebar-color);
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+
+.last-bar {
+    width:100%;
+    height: 10px;
+    background-color: #8c8989;
+}
